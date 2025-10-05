@@ -58,7 +58,8 @@ def main():
 
     SetLogLevel(-1)
     print("Loading Vosk model (first time can take a bit)...")
-    model = Model(model_path="vosk-model-en-us-0.42-gigaspeech")
+    # model = Model(model_path="vosk-model-en-us-0.42-gigaspeech")
+    model = Model(model_path="vosk-model-pt-fb-v0.1.1-20220516_2113")
     logging.info("sp2t setup")
 
     video_id = str(uuid.uuid4())
